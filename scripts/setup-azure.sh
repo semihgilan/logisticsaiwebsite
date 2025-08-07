@@ -6,10 +6,10 @@
 set -e
 
 # Configuration variables - update these as needed
-RESOURCE_GROUP="talarex-rg"
-LOCATION="eastus"
-APP_SERVICE_PLAN="talarex-plan"
-WEB_APP_NAME="talarex-webapp"
+RESOURCE_GROUP="talarex-rg-westeu"
+LOCATION="westeurope"  # Changed from eastus to westeurope for better availability
+APP_SERVICE_PLAN="talarex-plan-westeu"
+WEB_APP_NAME="talarex-webapp-westeu"
 SKU="B1"  # Basic tier, can be changed to S1 for Standard or P1V2 for Premium
 
 # Colors for output

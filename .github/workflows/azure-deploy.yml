@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_WEBAPP_NAME: talarex-webapp  # Set this to your app service name
+  AZURE_WEBAPP_NAME: talarex-webapp-westeu  # Set this to your app service name
   NODE_VERSION: '20.x'
 
 jobs:
